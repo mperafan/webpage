@@ -1,0 +1,33 @@
+.title {
+    color: rgb(233, 133, 146);
+    margin-top: 20px;
+    font-size: 50px;
+    font-family: carving;
+    text-align: center;
+    display: block;
+    
+  }
+ .description{
+  margin-top: 30px;
+  text-align: center;
+  color: rgb(150, 77, 87);
+ }
+.product{
+    width: 50%;
+    height: auto;
+}
+
+
+  @font-face {
+    font-family: cakecafe;
+    src: url(../shop/fonts/Cakecafe.ttf);
+  }
+
+  @font-face {
+    font-family: bebasneue;
+    src: url(../shop/fonts/BebasNeue-Regular.ttf);
+  }
+
+  @font-face {
+    font-family: carving;
+    src: url(../fonts/MADECarvingSoftPERSONALUSE-Medium.otf);}

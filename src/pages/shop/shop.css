@@ -1,0 +1,81 @@
+
+.shopTitle {
+    color: rgb(233, 133, 146);
+    margin-top: 20px;
+    text-align: center;
+    font-size: 40px;
+    font-family: cakecafe;
+    display: block;
+    justify-content: center;
+  }
+  .shopTitle h1 {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .shopTitle h2{
+    margin-top: -20px;
+    font-size: 70%;
+    font-family: carving;
+  }
+
+  .products {
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: center;
+  }
+  
+  .product {
+    border-radius: 15px;
+    width: 300px;
+    height: 350px;
+    margin: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .product img {
+    width: 400px;
+  }
+  
+  .product .description {
+    text-align: center;
+    color: rgb(233, 133, 146);
+  }
+  
+  .product:hover {
+    transition: 0.3s ease-in;
+    cursor: url(../shop/Normal\ Select\ 5.cur), pointer;
+  }
+  
+  .addToCartBttn {
+    background-color: rgb(255, 226, 230);
+    color: rgb(233, 133, 146);
+    border: 2px solid rgb(233, 133, 146);
+    min-width: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 15px;
+  }
+  
+  .addToCartBttn:hover {
+    background-color: rgb(233, 133, 146);
+    color: rgb(255, 226, 230);
+    cursor: url(../shop/Normal\ Select\ 5.cur), pointer;
+  }
+
+  @font-face {
+    font-family: cakecafe;
+    src: url(../shop/fonts/Cakecafe.ttf);
+  }
+
+  @font-face {
+    font-family: bebasneue;
+    src: url(../shop/fonts/BebasNeue-Regular.ttf);
+  }
