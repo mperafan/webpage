@@ -3,7 +3,7 @@ import { useParams } from "react-router-dom";
 import { PRODUCTS } from "../../products";
 import './img1.css';
 import ImageGallery from "react-image-gallery";
-import tabla from "../img1/miripelada.jpg"
+import tabla from "../img1/miripelada2.webp"
 import "react-image-gallery/styles/css/image-gallery.css"
 
 export const Img1 = () => {

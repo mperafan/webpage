@@ -1,14 +1,14 @@
-import product1 from './assets/aoi.png';
-import product2 from './assets/mahoraga.png';
-import product3 from './assets/jjk1.png';
-import product4 from './assets/berserk.png';
-import product5 from './assets/vagabond.png';
-import product6 from './assets/vagabondwhite.png';
-import product7 from './assets/vinland.png';
-import product8 from './assets/zoro.png';
-import product9 from './assets/madokaover.png';
-import product10 from './assets/lanaover.png';
-import product11 from './assets/milfover.png';
+import product1 from './assets/aoi.webp';
+import product2 from './assets/mahoraga.webp';
+import product3 from './assets/jjk1.webp';
+import product4 from './assets/berserk.webp';
+import product5 from './assets/vagabond.webp';
+import product6 from './assets/vagabondwhite.webp';
+import product7 from './assets/vinland.webp';
+import product8 from './assets/zoro.webp';
+import product9 from './assets/madokaover.webp';
+import product10 from './assets/lanaover.webp';
+import product11 from './assets/milfover.webp';
 export const PRODUCTS = [
     {
         id: 1,
