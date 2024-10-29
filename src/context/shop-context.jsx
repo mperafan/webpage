@@ -6,7 +6,16 @@ export const ShopContext = createContext(null);
 const getDefaultCart = () => {
     let cart = {}
     for (let i=1;i<PRODUCTS.length +1; i++){
-        cart[i] = 0;
+        cart[i] = {
+            S: 0,
+            M: 0,
+            L: 0,
+            XL: 0,
+            XXL: 0,
+            XXXL: 0,
+            XXXXL: 0,
+            XXXXXL: 0,
+        };
     }
     return cart;
 };
