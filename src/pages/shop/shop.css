@@ -70,6 +70,12 @@
     cursor: url(../shop/Normal\ Select\ 5.cur), pointer;
   }
 
+  .ReactCollapse--collapse {
+    transition: height 500ms;
+    background-color: aqua;
+
+  }
+
   @font-face {
     font-family: cakecafe;
     src: url(../shop/fonts/Cakecafe.ttf);
